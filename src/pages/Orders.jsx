@@ -13,7 +13,7 @@ function Orders() {
   /* button back */
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("");
+    navigate("react-sneakers-regina");
   };
 
   React.useEffect(() => {

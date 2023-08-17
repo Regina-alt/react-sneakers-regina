@@ -14,7 +14,7 @@ function Favorites({ onAddToFavorite }) {
   /* button back */
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("");
+    navigate("react-sneakers-regina");
   };
 
   return (
