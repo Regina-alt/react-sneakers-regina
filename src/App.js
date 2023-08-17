@@ -156,10 +156,10 @@ function App() {
             }
           />
           <Route
-            path="react-sneakers-regina/favorites"
+            path="/favorites"
             element={<Favorites onAddToFavorite={onAddToFavorite} />}
           />
-          <Route path="react-sneakers-regina/orders" element={<Orders />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>
